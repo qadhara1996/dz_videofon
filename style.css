@@ -1,0 +1,172 @@
+*,
+*::after,
+*::before{
+    padding: 0px;
+    margin: 0px;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: url(—Pngtree—dirty\ vintage\ paper\ texture\ premium_1377886.jpg);
+    background-size: cover;
+}
+
+.wrapper{
+    max-width: 1000px;
+    background-color:antiquewhite;
+    padding: 20px;
+    margin: 0px auto 0px auto;
+    
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.fullScreenVideo{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.fullScreenText {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+}
+
+.containerPosition{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.fullScreenText_title {
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    word-spacing: 15px;
+    line-height: 80px;
+}
+.fullScreenText_subtitle {
+    color: rgb(223, 222, 222);
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    word-spacing: 15px;
+    line-height: 60px;
+}
+
+.fullScreenVideo video,
+.fullScreenVideo iframe{
+    /* position: fixed; */
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;   
+    object-fit: cover;
+    z-index: 0;
+}
+
+img{
+    width: 100%;
+}
+
+header{
+    display: inline-block;
+    margin: 10px;
+}
+
+nav{
+    display: inline-block;
+    text-align: center;
+}
+
+li{
+    display: inline-block;
+    text-align: center;
+    background-color:rgb(231, 213, 190);
+    margin: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: #292323;
+    text-align: center;
+    padding: 5px;
+    display: inline-block;
+}
+
+li:hover{
+    background-color:rgb(255, 240, 222);
+}
+
+h1{
+    margin: 30px;
+    text-align: center;
+}
+
+h2{
+    margin: 35px 0px 15px 0px;
+    text-align: center;
+    font-family: Anticva;
+    font-weight: normal;
+}
+
+.article{
+    /* margin: 20px 0px 10px 0px; */
+    padding: 20px;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: calc(16px * 1.3);
+}
+
+.back_up{
+    background-color: rgb(231, 213, 190);
+    margin: 15px 0 0 0 ;
+}
+
+.back_up:hover{
+    background-color:rgb(255, 240, 222)
+}
+
+.chapter{
+    margin: 50px;
+    border: 1px solid #9b7055;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+/* .chapter p{
+    padding-left: 20px;
+    padding-right: 20px;
+} */
+
+h1{
+    font-family: "Marck Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.fa-solid{
+    color:#292323;
+    padding: 5px 0 5px 5px;
+}
+
+@font-face {
+    font-family: Anticva;
+    src: url(fonts/ofont.ru_Anticva.ttf);
+    src: url(fonts/ofont.ru_Anticva.otf);
+    src: url(fonts/ofont.ru_Anticva.woff);
+}
